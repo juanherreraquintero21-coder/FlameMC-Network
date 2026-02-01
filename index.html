@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FlameMC | Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>🔥 FlameMC</h1>
+        <p>Servidor competitivo de Minecraft</p>
+
+        <div class="ip-box">
+            <span id="ip">FlameMC.net</span>
+            <button onclick="copyIP()">Copiar IP</button>
+        </div>
+
+        <div class="buttons">
+            <a href="https://discord.gg/FlameMC" target="_blank" class="btn discord">Discord</a>
+            <a href="#info" class="btn info">Información</a>
+        </div>
+    </section>
+
+    <!-- INFO -->
+    <section class="info" id="info">
+        <div class="card">
+            <h2>🎮 Modalidades</h2>
+            <p>KitMap · KitMap UHC · BoxPvP</p>
+        </div>
+
+        <div class="card">
+            <h2>🧩 Versiones</h2>
+            <p>1.8.9 – 1.20.x</p>
+        </div>
+
+        <div class="card">
+            <h2>🔥 FlameMC</h2>
+            <p>PvP competitivo, buen ping y staff activo</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 FlameMC Network · No afiliado a Mojang</p>
+    </footer>
+
+<script>
+function copyIP() {
+    navigator.clipboard.writeText("FlameMC.net");
+    alert("🔥 IP copiada al portapapeles");
+}
+</script>
+
+</body>
+</html>
